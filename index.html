@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+
+    <title> Calculator</title>
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="scn">
+        <input class="data-srn" type="text" name="" value="" id="result">
+        <div class="clr">
+          <input class="data-clr data-btn" type="button" name="" value="C" onclick="clr()">
+        </div>
+      </div>
+
+      <div class="btn">
+        <input class="data-btn" type="button" name="" value="7" onclick="display('7')">
+        <input class="data-btn" type="button" name="" value="8" onclick="display(8)">
+        <input class="data-btn" type="button" name="" value="9" onclick="display(9)">
+        <input class="data-btn" type="button" name="" value="/" onclick="display('/')">
+      </div>
+      <div class="btn">
+        <input class="data-btn" type="button" name="" value="4" onclick="display(4)">
+        <input class="data-btn" type="button" name="" value="5" onclick="display(5)">
+        <input class="data-btn" type="button" name="" value="6" onclick="display(6)">
+        <input class="data-btn" type="button" name="" value="+" onclick="display('+')">
+      </div>
+      <div class="btn">
+        <input class="data-btn" type="button" name="" value="1" onclick="display(1)">
+        <input class="data-btn" type="button" name="" value="2" onclick="display(2)">
+        <input class="data-btn" type="button" name="" value="3" onclick="display(3)">
+        <input class="data-btn" type="button" name="" value="×" onclick="display('×')">
+      </div>
+      <div class="btn">
+        <input class="data-btn" type="button" name="" value="-" onclick="display('-')">
+        <input class="data-btn" type="button" name="" value="." onclick="display('.')">
+        <input class="data-btn" type="button" name="" value="=" onclick="solve('=')">
+        <input class="data-btn" type="button" name="" value="0" onclick="display(0)">
+      </div>
+
+    </div>
+  </body>
+</html>
